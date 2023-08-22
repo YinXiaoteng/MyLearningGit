@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  MyGitDemo
-//
-//  Created by YinXt on 2023/8/22.
-//
-
 import UIKit
 
 @main
@@ -14,6 +7,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        print("注册融云SDK")
+        print("注册微信SDK")
         return true
     }
 
